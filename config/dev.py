@@ -45,7 +45,7 @@ DEBUG = True
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "NAME": "appcall-watcher",  # noqa
+        "NAME": APP_CODE,  # noqa
         "USER": "root",
         'PASSWORD': 'C6%I8epRU4Sh',
         "HOST": "localhost",
